@@ -1,0 +1,72 @@
+.parallax-container {
+    min-height: 700px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+}
+
+.sm-nav ul {
+    margin-bottom: 0px;
+}
+
+.sm-nav ul > li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 15px;
+    font-weight: 400;
+}
+
+.sm-nav ul > li > a {
+    text-decoration: none;
+    color: #333;
+}
+
+.sm-nav span {
+    padding-right: 5px;
+}
+
+.sm-nav-top {
+    border-bottom: solid 1px #f0f0f0;
+    height: 45px!important;
+}
+
+.no-padding {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+a.btn-mobile {
+    color: #6a6a6a;
+}
+.center-m {
+    display: table;
+    margin: 0 auto;
+}
+.bg-1 {
+    background: url(/img/tes.jpg);
+    background-size: cover;
+    padding: 10px;
+    height: 300px;
+}
